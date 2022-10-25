@@ -1,0 +1,184 @@
+.hobbies-hab {
+    background: #869997;
+    border-top: .20rem solid rgb(90, 90, 90);
+    border-bottom: .20rem solid rgb(90, 90, 90);
+    padding: .50rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hobbies__titulo, .hab__titulo {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    padding: .50rem;
+}
+
+.hobbies__item {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: .25rem;
+}
+
+.hobbies__tipo, .hab__tipo {
+    color: #284e4a;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: x-large;
+    padding: .50rem;
+}
+
+.hobbies__descripcion, .hab__descripcion, .hab__info {
+    text-align: justify;
+    padding: .50rem;
+}
+
+.hobbies__video  {
+    padding: 1rem;
+}
+
+.hab__item {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border: #284e4a .5rem solid;
+    border-radius: 20px;
+    padding: .25rem;
+    background: #C7BFBD;
+    margin: .75rem .25rem;
+}
+
+.hab__imagen {
+    padding: 1rem;
+    width: 75%;
+    align-self: center;
+}
+
+.hab__btn, .hab__btn-esconder {
+    width: 50%;
+    background: #C7BFBD;
+    font-size: large;
+    border: #9F444F solid .20rem;
+    border-radius: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: #9F444F;
+    align-self: center;
+    margin: .25rem;
+}
+
+.hab__btn:hover, .hab__btn-esconder:hover {
+    text-decoration: underline;
+}
+
+.hab__btn:active, .hab__btn-esconder:active {
+    background: rgb(90, 90, 90);
+}
+
+.hab__tarjeta {
+    margin: .50rem;
+    display: flex;
+    flex-direction: column;
+    border: rgb(90, 90, 90) .30rem solid;
+    border-radius: 20px;
+    padding: .75rem;
+}
+
+@media screen and (min-width: 768px) {
+    .hobbies-hab {
+        padding: 3rem;
+    }
+
+    .hobbies__titulo, .hab__titulo {
+        font-size: 300%;
+        padding: 1rem;
+    }
+
+    .hobbies__tipo, .hab__tipo {
+        font-size: 250%;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .hobbies__descripcion, .hab__descripcion, .hab__info {
+        text-align: justify;
+        font-size: 200%;
+        padding: 2rem;
+    }
+
+    .hobbies__video  {
+        padding: 2rem;
+    }
+
+    .hab__item {
+        margin: 3rem 0;
+    }
+
+    .hab__imagen {
+        padding: 2rem;
+        width: 50%;
+    }
+
+    .hab__btn, .hab__btn-esconder {
+        font-size: 200%;
+        margin-bottom: 2rem;
+    }
+
+    .hab__tarjeta {
+        margin: 2rem;
+    }
+}
+
+@media screen and (min-width: 922px) {
+    .hobbies-hab {
+        padding: 1rem;
+    }
+
+    .hobbies__titulo, .hab__titulo {
+        font-size: 200%;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    .hobbies__lista {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .hobbies__item {
+        width: 30%;
+    }
+
+    .hobbies__tipo, .hab__tipo {
+        font-size: 150%;
+        padding: 1rem;
+        text-align: center;
+    } 
+
+    .hobbies__descripcion, .hab__descripcion, .hab__info {
+        text-align: justify;
+        font-size: 100%;
+        padding: 1rem;
+    }
+
+    .hab__lista {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .hab__item {
+        width: 25%;        
+    }
+
+    .hab__btn, .hab__btn-esconder {
+        font-size: 100%;
+        margin-bottom: 1rem;
+    }
+
+}

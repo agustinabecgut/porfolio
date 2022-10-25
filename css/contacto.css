@@ -1,0 +1,93 @@
+.contacto {
+    background: #9F444F;    
+    border-top: .20rem solid rgb(90, 90, 90);
+    padding: .50rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__titulo {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+    padding: .50rem;
+}
+
+.contacto__form {
+    display: flex;
+    flex-direction: column;
+    padding: .50rem;
+}
+
+.contacto__nombre, .contacto__apellido, .contacto__email, .contacto__asunto, .contacto__mensaje {
+    margin: .50rem;
+    padding: .50rem;
+    border: none;
+    border-radius: 20px;
+    color: rgb(90, 90, 90);
+    font-size: medium;    
+    font-family: 'Roboto Mono', monospace;
+}
+
+.contacto__btn {
+    width: 50%;
+    background: #C7BFBD;
+    font-size: large;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: #9F444F;
+    align-self: center;
+    margin: .25rem;
+    padding: .25rem;
+}
+
+.contacto__btn:hover {
+    text-decoration: underline;
+}
+
+.contacto__btn:active {
+    background: rgb(90, 90, 90);
+}
+
+@media screen and (min-width: 768px) {
+    .contacto {        
+        padding: 3rem;
+    }
+
+    .contacto__titulo {
+        font-size: 300%;
+        padding: 1rem;
+    }
+
+    .contacto__nombre, .contacto__apellido, .contacto__email, .contacto__asunto, .contacto__mensaje {
+        font-size: 200%;
+        padding: 1rem;
+    }
+
+    .contacto__btn {
+        font-size: 200%;
+    }
+}
+
+@media screen and (min-width: 922px) {
+    .contacto {        
+        padding: 1rem 25%;
+    }
+
+    .contacto__titulo {
+        font-size: 200%;
+        padding: 1rem;
+    }
+
+    .contacto__nombre, .contacto__apellido, .contacto__email, .contacto__asunto, .contacto__mensaje {
+        font-size: 100%;
+        padding: 1rem;
+    }
+
+    .contacto__btn {
+        font-size: 100%;
+    }
+}

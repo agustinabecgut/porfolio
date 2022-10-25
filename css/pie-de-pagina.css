@@ -1,0 +1,34 @@
+.pie-de-pagina {
+    background: #9F444F;
+    padding: .50rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.pie-de-pagina__texto {
+    color: #ffffff;
+    text-align: center;
+    padding: .50rem;
+}
+
+@media screen and (min-width: 768px) {
+    .pie-de-pagina {
+        padding: 3rem;
+    }
+
+    .pie-de-pagina__texto {
+        font-size: 200%;
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 922px) {
+    .pie-de-pagina {
+        padding: 1rem;
+    }
+
+    .pie-de-pagina__texto {
+        font-size: 100%;
+        padding: 1rem;
+    }
+}

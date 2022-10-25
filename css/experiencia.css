@@ -1,0 +1,115 @@
+.experiencia {
+    background: #C7BFBD;
+    padding: .50rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: .20rem solid rgb(90, 90, 90);
+}
+
+.experiencia__titulo {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    padding: .50rem;
+}
+
+.experiencia__item {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: .25rem;
+}
+
+.experiencia__tipo {
+    color: rgb(90, 90, 90);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: x-large;
+    padding: .50rem;
+}
+
+.experiencia__descripcion {
+    color: #000000;
+    text-align: justify;
+    padding: .50rem;
+}
+
+.experiencia__enlace {
+    color: #9F444F;
+}
+
+.experiencia__enlace:hover {
+    text-decoration: underline;
+}
+
+.experiencia__enlace:active {
+    color: #000000;
+}
+
+.experiencia__video {    
+    padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .experiencia {
+        padding: 3rem;
+    }
+
+    .experiencia__titulo {
+        font-size: 300%;
+        padding: 1rem;
+    }
+
+    .experiencia__tipo {
+        font-size: 250%;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .experiencia__descripcion {
+        text-align: justify;
+        font-size: 200%;
+        padding: 2rem;
+    }
+
+    .experiencia__video {    
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 922px) {
+    .experiencia {
+        padding: 1rem;
+    }
+
+    .experiencia__titulo {
+        font-size: 200%;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    .experiencia__lista {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .experiencia__item {
+        width: 30%;
+    }
+
+    .experiencia__tipo {
+        font-size: 150%;
+        padding: 1rem;
+        text-align: center;
+    } 
+
+    .experiencia__descripcion {
+        text-align: justify;
+        font-size: 100%;
+        padding: 1rem;
+    }
+}

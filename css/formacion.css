@@ -1,0 +1,167 @@
+.formacion {
+    background: #4B6147;
+    padding: .50rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: .20rem solid rgb(90, 90, 90);
+}
+
+.formacion__titulo {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    padding: .50rem;
+}
+
+.formacion__item {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: .25rem;
+}
+
+.formacion__tipo {
+    color: #a8d8a0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: x-large;
+    padding: .50rem;
+}
+
+.formacion__descripcion {
+    color: white;
+    text-align: justify;
+    padding: .50rem;
+}
+
+.formacion__btn {
+    width: 50%;
+    background: #4B6147;
+    font-size: large;
+    border: #552329 solid .20rem;
+    border-radius: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: #552329;
+    align-self: center;
+    margin: .25rem;
+}
+
+.formacion__btn:hover {
+    text-decoration: underline;
+}
+
+.formacion__btn:active {
+    background: #a8d8a0;
+}
+
+.formacion__btn-esconder {
+    width: 50%;
+    background: #4B6147;
+    font-size: large;
+    border: #552329 solid .20rem;
+    border-radius: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: #552329;
+    align-self: center;
+    margin: .25rem;
+}
+
+.formacion__btn-esconder:hover {
+    text-decoration: underline;
+}
+
+.formacion__btn-esconder:active {
+    background: #a8d8a0;
+}
+
+.formacion__tarjeta {
+    margin: .50rem;
+    display: flex;
+    flex-direction: column;
+    border: #273325 .30rem solid;
+    border-radius: 20px;
+    padding: .75rem;
+    background: #a8d8a0;
+}
+
+.formacion__info {
+    color: #273325;
+    text-align: justify;
+    padding: .50rem;
+}
+
+@media screen and (min-width: 768px) {
+    .formacion {
+        padding: 3rem;
+    }
+
+    .formacion__titulo {
+        font-size: 300%;
+        padding: 1rem;
+    }
+
+    .formacion__tipo {
+        font-size: 250%;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .formacion__descripcion, .formacion__info {
+        text-align: justify;
+        font-size: 200%;
+        padding: 2rem;
+    }
+
+    .formacion__btn, .formacion__btn-esconder {
+        font-size: 200%;
+        margin-bottom: 2rem;
+    }
+
+    .formacion__tarjeta {
+        margin: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 922px) {
+    .formacion {
+        padding: 1rem;
+    }
+
+    .formacion__titulo {
+        font-size: 200%;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    .formacion__lista {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .formacion__item {
+        width: 30%;
+    }
+
+    .formacion__tipo {
+        font-size: 150%;
+        padding: 1rem;
+        text-align: center;
+    } 
+
+    .formacion__descripcion, .formacion__info {
+        text-align: justify;
+        font-size: 100%;
+        padding: 1rem;
+    }
+
+    .formacion__btn, .formacion__btn-esconder {
+        font-size: 100%;
+        margin-bottom: 1rem;
+    }
+
+}
